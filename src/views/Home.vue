@@ -10,7 +10,7 @@
         </el-aside>
         <el-main>
           <div class="video-contaniner"> 
-            <Video></Video>
+            <Video videoId="globalVideo"></Video>
           </div>
           <router-view></router-view>
         </el-main>
