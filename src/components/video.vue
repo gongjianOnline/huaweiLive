@@ -1,5 +1,7 @@
 <template>
-  <div class="wrapper" id="videoID"></div>
+  <div class="wrapper" id="videoID">
+
+  </div>
 </template>
 
 <script>
@@ -41,7 +43,9 @@
     computed:{},
     created(){},
     mounted(){
+      if(!(this.$route.path === "/carte3")){
         this.createvideoFun()
+      }
     },
     methods:{
       createElem(){
